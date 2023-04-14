@@ -1,0 +1,203 @@
+<html>
+<style>
+    .logo {
+        padding: 0;
+        width: 95px;
+        margin-bottom: 28px;
+        height: 95px;
+        border-radius: 90px;
+        border: 0px;
+    }
+    
+    .headero {
+        background: linear-gradient(135Deg, RGBA(255, 255, 255, 0.1), RGBA(255, 255, 255, 0));
+        backdrop-filter: BLUR(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px solid RGBA(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        width: 100%;
+        height: 100px;
+        margin-top: 50px;
+    }
+    .foot_e{
+        background: linear-gradient(135Deg, RGBA(255, 255, 255, 0.1), RGBA(255, 255, 255, 0));
+        backdrop-filter: BLUR(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px solid RGBA(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        width: 100%;
+        height: 350px;
+        margin-top: 150px; 
+    }
+
+    .pages1 {
+        text-decoration: wavy;
+        text-shadow: 10px;
+        vertical-align: 80px;
+        font-size: x-large;
+    }
+    
+    @keyframes neon {
+        0%,
+        39%,
+        41%,
+        59%,
+        61%,
+        100% {
+            text-shadow: white 0 0 12px, #ff3aaD 0 0 24px, #ff3aaD 0 0 36px;
+        }
+        40%,
+        60% {
+            text-shadow: none;
+        }
+
+    }
+
+    @keyframes neon_blue {
+        0%,
+        39%,
+        41%,
+        59%,
+        61%,
+        100% {
+            text-shadow: #03e9f4 0 0 12px, #03e9f4 0 0 18px, #03e9f4 0 0 36px;
+        }
+        40%,
+        60% {
+            text-shadow: none;
+        }
+
+    }
+    
+    h2 {
+        font-size: 42px;
+        font-weight: 500;
+        color: transparent;
+        letter-spacing: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.5s;
+        text-align: center;
+        text-align: justify;
+        margin-left: 10%;
+        margin-top: 40px;
+        color: #fff;
+        text-shadow: 0 0 70px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+    }
+    h4 {
+        font-size: 42px;
+        font-weight: 500;
+        color: transparent;
+        letter-spacing: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.5s;
+        text-align: center;
+        text-align: justify;
+        margin-left: 21%;
+        margin-top: 25px;
+    }
+    
+    h4:hover {
+        color: #fff;
+        text-shadow: 0 0 70px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+    }
+    
+    button {
+        background: linear-gradient(135Deg, RGBA(255, 255, 255, 0.1), RGBA(255, 255, 255, 0));
+        backdrop-filter: BLUR(10px);
+        -webkit-backdrop-filter: blur(10px);
+        transition: 0.5s;
+        width: 200px;
+        height: 95px;
+        margin-left: 37%;
+        margin-top: 5%;
+        font-size: 25px;
+        color: #fff;
+        border: 3px solid #03e9f4;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px #03e9f4;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        transition: 0.5s;
+        background: #03e9f4;
+        color: #fff;
+        box-shadow: 0px 0px 60px 60px #03e9f4;
+    }
+    button:active 
+    {
+        transition: 0.1s;
+        background:#ff3aaD;
+        border-radius: 5px;
+        border: 3px solid #ff3aaD;
+        color: #fff;
+        box-shadow: 0px 0px 60px 60px #ff3aaD;
+    }
+    .container {
+        width:60%;
+        height: 79%;
+        margin-top:4% ;
+        margin-left: 21.5%;
+        font-size: 30px;
+        background: linear-gradient(135Deg, RGBA(255, 255, 255, 0.1), RGBA(255, 255, 255, 0));
+        backdrop-filter: BLUR(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #fff;
+        border-radius: 20px;
+        border: 1px solid RGBA(255, 255, 255, 0.18);
+    }
+    .move {
+        margin-top: 3.5%;
+        font-style: oblique;
+    }
+</style>
+<title>
+Air Serve Groceries
+</title>
+
+<body style="background-image: url(./bye.jpg); background-repeat: no-repeat; background-size:cover;">
+
+    <head>
+        <div class="headero">
+            <div>
+                <h style=" color: white; animation: neon 5s infinite;font-size: 50px;letter-spacing: 7px; width: 100px; margin-left:46.0%; vertical-align: 70px;">Login</h>
+            </div>
+        </div>
+    </head>
+    <div class="move">
+        <h style=" color: white; animation: neon 5s infinite;font-size: 50px;letter-spacing: 7px; width: 100px; margin-left:27.0%;">Please Enter your information!</h>
+    </div>
+    <div class="container">
+            <form>
+                <label for = "customer_name" style="margin-left:5%; text-shadow: 10px; animation: neon_blue 5s infinite;">First Name: </label>
+                <input type="text" id="customer_name" name="customer_name" style="margin-left:2% ; margin-top: 5%; width: 600px; height: 42px;border-radius: 40px;font-size: 22px; box-shadow: 0px 0px 30px #03e9f4;"><br>
+                <label for = "customer_name" style="margin-left:5%; text-shadow: 10px; animation: neon_blue 5s infinite;">Last Name: </label>
+                <input type="text" id="customer_name" name="customer_name" style="margin-left:2% ; margin-top: 5%; width: 600px; height: 42px;border-radius: 40px;font-size: 22px; box-shadow: 0px 0px 30px #03e9f4;"><br>
+                <label for = "customer_contact" style="margin-left:5%; text-shadow: 10px; animation: neon_blue 5s infinite;">Contact Number: </label>
+                <input type="text" id="customer_contact" name="customer_contact" style="margin-left:2% ; margin-top: 5%; width: 600px; height: 42px;border-radius: 40px;font-size: 22px; box-shadow: 0px 0px 30px #03e9f4;"><br>
+                <label for = "customer_email" style="margin-left:5%; text-shadow: 10px; animation: neon_blue 5s infinite;">Email: </label>
+                <input type="text" id="customer_email" name="customer_email" style="margin-left:2% ; margin-top: 5%; width: 600px; height: 42px;border-radius: 40px;font-size: 22px; box-shadow: 0px 0px 30px #03e9f4;"><br>
+            </form>
+            <button onclick="window.location.href='./Home.HTML';">Register</button>
+    </div>
+</body>
+<footer>
+    <div class="foot_e">
+        <div>
+            <h style=" color: white; animation: neon 5s infinite;font-size: 50px;letter-spacing: 7px; width: 100px; margin-left:35.0%; vertical-align: 70px;">Air Serve Groceries</h>
+            <p style="text-align:center ; color: white;font-size: 30px;">Contact us on:</p>
+            <img src="./facebook.png" style="width: 35px; height: 35px; margin-left: 38%; border-radius: 35px;">
+            <a style="color: white;font-size: 28px; margin-left: 1%; " href="https://www.facebook.com/">Moaz Farooq || Muhammad Owais</a>
+            <img src="./gmail.png" style="width:45px; height: 35px; margin-left: 38%; margin-top: 8px; border-radius: 35px;">
+            <a style="color: white;font-size: 28px; margin-left: 1%;" href="https://mail.google.com/mail/u/0/">Air Serve Email Assistant</a>
+            <img src="./Whatsapp.png" style="width:45px; height: 45px; margin-left: 38%; margin-top: 12px; border-radius: 35px;">
+            <a style="color: white;font-size: 28px; margin-left: 1%;" href="https://mail.google.com/mail/u/0/">03015-5149519</a>
+        </div>
+    </div>
+</footer>
+</html>
